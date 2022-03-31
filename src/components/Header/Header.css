@@ -1,0 +1,14 @@
+.header {
+	background-color: #fff;
+	
+}
+.header__image{
+
+}
+.header__container {
+	display: flex;	
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+
+}

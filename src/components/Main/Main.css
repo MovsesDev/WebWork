@@ -1,0 +1,332 @@
+.menu {
+}
+.menu__list {
+	display: flex;
+	align-items: center;
+
+}
+
+.menu__item{
+	display: flex;
+	margin-left: 40px;
+	text-align: center;
+	align-items: center;
+}
+.menu__link {
+	color:#37434E;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 127%;
+}
+
+.menu__item:last-child {
+	text-align: center;
+	justify-content: center;
+	border: 1px solid;
+	width: 175px;
+	height: 42px;
+	border-radius:131px ;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+
+
+
+/* -----------------------------BILLABEL HOURS-------------------------------------- */
+.page {
+	margin-top: 89px;
+}
+.main-fonts {
+}
+.page__billable {
+}
+.page__billable-container {
+
+	
+}
+
+.billable__logo {
+}
+.billable__over{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+}
+.billable__body{
+	
+}
+.billable__title {
+	margin-left: 29px;
+	font-weight: 600;
+	font-size: 49px;
+	line-height: 126%;
+	align-items: center;
+}
+.billable__sub-title {
+	text-align: center;
+	align-items: center;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 126%;
+	color: #4D5B67;
+	margin-top: 20px;
+	margin-bottom: 42px;
+}
+.billable__sub-title_link{
+	text-decoration: none;
+	color: #4D5B67;
+	text-decoration: underline;
+}
+.billable__btn {
+	display: flex;
+	border: 1px solid #8276FF;
+	background-color: #8276FF;
+	width: 229px;
+	height: 49px;
+	border-radius: 31.0938px;
+	text-align: center;
+	
+	
+	
+}
+
+.billable__btn-text {
+	
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 125%;
+	text-decoration: none;
+	padding: 14px 39px;
+}
+.billable__btn:hover{
+	transition: all 2s ease 0s;
+	background-color: blue;
+}
+
+.billable__text {
+	margin-top: 12px;
+	color: #FFC107;	
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 128%;
+
+}
+
+.billable__under-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/* -----------------------AMOUNT--REPORTS-------------------------------------------------------------------------------- */
+.amount__reports {
+	background-color:  #E5E5E5;
+	margin-top: 44px;
+}
+.amount__container {
+}
+.amount__body {
+	display: flex;
+	justify-content: space-between;
+}
+.amount__img {
+}
+.amount__content {
+	margin-top: 84px;
+	
+}
+.amount__title {
+	font-weight: 600;
+	font-size: 39px;
+	line-height: 125%;
+	color: #37434E;
+	letter-spacing: 0.005em;	
+	margin-bottom: 40px;
+
+}
+.amount__texts{
+	color: #4D5B67;
+}
+.amount__text1 {
+}
+.amount__text2 {
+	margin-top: 20px;
+}
+
+/* -------------------------------FINANCIAL--INFORMATION-------------------------------------------- */
+.financial__information {
+	background-color: #6385FDB2;
+	/* margin-top: 46px; */
+}
+.financial__information_container {
+}
+.financial__information_body {
+	display: flex;
+	justify-content: space-between;
+}
+.financial__information_texts{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+
+}
+.financial__information_texts >*:not(:last-child){
+	margin-bottom: 20px;
+}
+.financial__information_content {
+	color: white;
+	padding-top: 59px;
+}
+.financial__information_title {
+	font-weight: 600;
+	font-size: 39px;
+	line-height: 125%;
+	margin-bottom: 41px;
+}
+
+.financial__information_text3{
+	border:1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 3px;
+	padding: 10px 14px;
+}
+.financial__information_img {
+}
+.financial__information_img__pic {
+}
+/* -------------------------WORKSPACE---PERMISSIONS-------------------------------------------------------- */
+
+.workspace__permessions {
+	background-color:  #E5E5E5;
+	padding-top: 130px;
+	
+}
+.workspace__permessions_container {
+	
+}
+.workspace__permessions_main {
+	
+
+}
+.workspace__permessions_titles{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.workspace__permessions_title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 125%;
+	color: #FFBE5B;
+	margin-bottom: 13px;
+	
+}
+.workspace__permessions_sub__title {
+	font-weight: 600;
+	font-size: 39px;
+	line-height: 125%;
+	margin-bottom: 87px;
+}
+.workspace__permessions_content {
+	display: flex;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #37434E;
+	align-items: center;
+	justify-content: space-between;
+}
+.workspace__permessions_items >*:not(:last-child) {
+	margin-bottom: 30px ;
+}
+
+
+
+.workspace__permessions_item::before {
+	content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: -23px;
+    top: 0;
+    bottom: 0;
+    border-width: 0 0 0 3px;
+	
+}
+.workspace__permessions_item {
+	position: relative;
+}
+
+.item__worker {
+	display: flex;
+	
+}
+.item__worker_1::before{
+	content: url(../../assets/img/svg/human1.svg);
+	margin-right: 16px;
+}
+.item__worker_2::before{
+	content: url(../../assets/img/svg/human2.svg);
+	margin-right: 16px;
+}
+.item__worker_3::before{
+	content: url(../../assets/img/svg/human3.svg);
+	margin-right: 16px;
+}
+.item__worker_4::before{
+	content: url(../../assets/img/svg/human4.svg);
+	margin-right: 16px;
+}
+.item__worker_5::before{
+	content: url(../../assets/img/svg/human5.svg);
+	margin-right: 16px;
+}
+.workspace__permessions_item_1::before{
+	content: '';
+	border: 1px solid #8276FF;
+}
+.workspace__permessions_item_2::before{
+	content: '';
+	border: 1px solid #FFB546;
+}
+.workspace__permessions_item_3::before{
+	content: '';
+	border: 1px solid #6385FD;
+}
+.workspace__permessions_item_4::before{
+	content: '';
+	border: 1px solid #33DBA8;
+}
+.workspace__permessions_item_5::before{
+	content: '';
+	border: 1px solid #FD779F;
+}
+
+.item__worker_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	margin-top: 20px;
+	margin-bottom: 44px;
+}
+.item__worker_text a{
+	text-decoration: none;
+	text-decoration: underline;
+	color: #37434E;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.workspace__permessions_img{
+	
+}
+
+
+
+/* --------------------FOOTER-TOP------------------------------------------------- */
